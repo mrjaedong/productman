@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,900|Roboto:300,700,900');
+
+
+body{
+	font: 400 18px/1.33 "Raleway", Arial, sans-serif;
+	color: #303030;
+	background-color: #eeeeee;
+}
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1240px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
+
+.ba-intro { padding: 48px 0 103px; }
+
+.ba-logo { float: left; }
+
+.ba-nav { 
+	float: right;
+	padding-top: 10px;
+}
+
+.ba-menu {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.ba-menu li { display: inline-block; }
+
+.ba-menu li:first-child { margin: 0 50px; }
+
+.ba-menu li:last-child { margin: 0 0 0 38px; }
+
+.ba-menu a {
+	color: #303030;
+	text-decoration: none;
+	line-height: 1.5;
+}
+
+.ba-menu a:hover { color: #e10011; }
+
+.ba-block-title {
+	width: 60%;
+	float: left;
+}
+
+.ba-title {
+	font: 900 150px/1 "Raleway", sans-serif;
+	text-align: right;
+	text-transform: uppercase;
+	margin: 97px 115px 0 0;
+}
+
+.ba-subtitle {
+	font: 300 25px/1.5 "Roboto", sans-serif;
+	margin: 25px 98px 0 44px;
+	text-align: right;
+}
+
+.ba-block-img { 
+	float: right;
+	width: 40%;
+    margin: 100px 0;
+}
+
+.ba-view-project {
+	color: #e10011;
+	text-align: right;
+	margin: 10px 106px 0 0;
+	font: 700 25px/1.5 "Roboto", sans-serif;
+}
+
+.ba-radiobutton {margin: 0 577px;}
+
+.ba-radiobutton input { display: none; }
+
+.ba-radiobutton label {
+	display: inline-block; 
+	margin: 75px 0 0 0;
+}
+
+.ba-radiobutton i {
+	display: inline-block;
+	width: 11px;
+	height: 11px;
+	border: 1px solid #ccc;
+	border-radius: 50%;
+	background: #303030;
+	cursor: pointer;	
+}
+.ba-radiobutton input:checked+i {
+		background: #e10011;
+}
